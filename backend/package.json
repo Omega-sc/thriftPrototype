@@ -1,0 +1,28 @@
+{
+  "name": "campuskart-firebase",
+  "version": "1.0.0",
+  "description": "College marketplace application with Firebase backend",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "firebase serve",
+    "build": "echo 'Build complete'",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "firebase": "^10.5.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^12.7.0"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "javascript",
+    "marketplace",
+    "college",
+    "students"
+  ],
+  "author": "CampusKart Team",
+  "license": "MIT"
+}
